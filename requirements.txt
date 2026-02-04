@@ -16,79 +16,79 @@ langchain-google-genai
 langchain-google-vertexai
 langchain_qdrant
 
-# # DeepAgents
-# deepagents
+# DeepAgents
+deepagents
 
-# # Document processing
-# pymupdf
-# pypdf2
-# unstructured
-# openpyxl
-# python-pptx
-# python-magic
-# docx2txt
-# markitdown[all]
-# docutils
-# xmltodict
+# Document processing
+pymupdf
+pypdf2
+unstructured
+openpyxl
+python-pptx
+python-magic
+docx2txt
+markitdown[all]
+docutils
+xmltodict
 
-# # Vector stores & embeddings
-# faiss-cpu
+# Vector stores & embeddings
+faiss-cpu
 
-# # NLP & ML
-# nltk
-# numpy
-# tiktoken
+# NLP & ML
+nltk
+numpy
+tiktoken
 
-# # API clients
-# ollama
-# openai
-# tavily-python
-# google-genai
+# API clients
+ollama
+openai
+tavily-python
+google-genai
 
-# # Web scraping & searching
-# beautifulsoup4
-# lxml
-# selenium
-# duckduckgo-search
-# ddgs
-# wikipedia
+# Web scraping & searching
+beautifulsoup4
+lxml
+selenium
+duckduckgo-search
+ddgs
+wikipedia
 
-# # Database
-# pymysql
+# Database
+pymysql
 
-# # Web framework
-# streamlit
+# Web framework
+streamlit
 
-# # Utilities
-# huggingface-hub
-# transformers
-# tokenizers
-# datasets
-# evaluate
-# accelerate
-# torch
-# torchvision
-# ipywidgets
-# jupyter
+# Utilities
+huggingface-hub
+transformers
+tokenizers
+datasets
+evaluate
+accelerate
+torch
+torchvision
+ipywidgets
+jupyter
 
-# # Media processing
-# pytube
-# youtube-transcript-api
+# Media processing
+pytube
+youtube-transcript-api
 
-# # Additional tools
-# email-validator
-# textblob
-# pymupdf4llm
-# langgraph-checkpoint-sqlite
-# langgraph-checkpoint-postgres
-# psycopg
-# psycopg-binary
-# rank_bm25
-# sentence_transformers
-# hf_xet
-# langchain_mcp_adapters
-# nest_asyncio
-# docling[vlm]
-# fastembed
-# fastembed-gpu
-# numba>=0.62.1
+# Additional tools
+email-validator
+textblob
+pymupdf4llm
+langgraph-checkpoint-sqlite
+langgraph-checkpoint-postgres
+psycopg
+psycopg-binary
+rank_bm25
+sentence_transformers
+hf_xet
+langchain_mcp_adapters
+nest_asyncio
+docling[vlm]
+fastembed
+fastembed-gpu
+numba>=0.62.1
