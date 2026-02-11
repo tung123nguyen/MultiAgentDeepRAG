@@ -72,9 +72,9 @@ Emerging growth company ☐
 
 If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
 
-<!-- page break --!>
+<!-- page break -->
 
-<!-- page break --!>
+<!-- page break -->
 
 ## Item 2.02    Results of Operations and Financial Condition.
 
@@ -91,7 +91,7 @@ The information contained in this Current Report shall not be deemed 'filed' for
 |             99.1 | Press release issued by Apple Inc. on February 1, 2024.            |
 |            104   | Inline XBRL for the cover page of this Current Report on Form 8-K. |
 
-<!-- page break --!>
+<!-- page break -->
 
 ## SIGNATURE
 
@@ -107,7 +107,7 @@ By: /s/ Luca Maestri Senior Vice President,
 
 Luca Maestri Chief Financial Officer
 
-<!-- page break --!>
+<!-- page break -->
 
 ## Apple reports first quarter results
 
@@ -129,7 +129,7 @@ Apple will provide live streaming of its Q1 2024 financial results conference ca
 
 Apple periodically provides information for investors on its corporate website, apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, reports filed or furnished with the SEC, information on corporate governance, and details related to its annual meeting of shareholders.
 
-<!-- page break --!>
+<!-- page break -->
 
 This press release contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include without limitation those about payment of the Company's quarterly dividend. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, war, terrorism, natural disasters, and public health issues; risks relating to the design, manufacture, introduction, and transition of products and services in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing, applications, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government investigations, and complex and changing laws and regulations. More information on these risks and other potential factors that could affect the Company's business, reputation, results of operations, financial condition, and stock price is included in the Company's filings with the SEC, including in the 'Risk Factors' and 'Management's Discussion and Analysis of Financial Condition and Results of Operations' sections of the Company's most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.
 
@@ -147,7 +147,7 @@ NOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/
 
 © 2024 Apple Inc. All rights reserved. Apple and the Apple logo are trademarks of Apple. Other company and product names may be trademarks of their respective owners.
 
-<!-- page break --!>
+<!-- page break -->
 
 ## Apple Inc.
 
@@ -197,7 +197,7 @@ NOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/
 | Services                                     | 23,117               | 20,766               |
 | Total net sales                              | $ 119,575            | $ 117,154            |
 
-<!-- page break --!>
+<!-- page break -->
 
 ## Apple Inc.
 
@@ -243,7 +243,7 @@ NOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/
 | Total shareholders' equity                                                                                                                                           | 74,100                                | 62,146                                |
 | Total liabilities and shareholders' equity                                                                                                                           | $ 353,514                             | $ 352,583                             |
 
-<!-- page break --!>
+<!-- page break -->
 
 ## Apple Inc.
 
