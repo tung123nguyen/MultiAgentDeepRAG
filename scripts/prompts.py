@@ -1,7 +1,7 @@
 """
 System prompts for various agents in the Multi Agent Deep RAG system.
 """
-MULTIMODAL_AGENT_PROMPT = """You are a comprehensive financial research analyst with access to both historical and live market data.
+MULTIMODEL_AGENT_PROMPT = """You are a comprehensive financial research analyst with access to both historical and live market data.
 
 **Your Capabilities:**
 1. **Historical Analysis (RAG)**: Search SEC filings (10-K annual reports, 10-Q quarterly reports) for historical financial data
