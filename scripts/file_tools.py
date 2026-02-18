@@ -83,3 +83,37 @@ def ls(
     if not os.path.exists(folder):
         return []
     return sorted(os.listdir(folder))
+
+@tool(parse_docstring=True)
+def read_file(
+    file_path: str,
+    state: Annotated[DeepAgentState, InjectedState],
+    offset: int = 0,
+    limit: int = 2000,
+) -> str:
+    """
+    Read a file from the real filesystem.
+
+    Args:
+        file_path: Relative file path under this user/thread folder.
+        state: Injected agent state providing user_id/thread_id.
+        offset: Line number to start from (0-based).
+        limit: Maximum number of lines to return.
+
+    Returns:
+        File content with line numbers, or an error message.
+    """
+    path = _disk_path(state, file_path)
+
+    if not os.path.exists(path):
+        return f"Error: File '{file_path}' does not exist."
+
+    with open(path, "r", encoding="utf-8") as f:
+        lines = f.read().splitlines()
+
+    end = min(offset + limit, len(lines))
+    numbered = [
+        f"{i + 1:5d}  {line}"
+        for i, line in enumerate(lines[offset:end])
+    ]
+    return "\n".join(numbered)
