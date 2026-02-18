@@ -55,3 +55,31 @@ def _disk_path(state: DeepAgentState, file_path: str) -> str:
     full = os.path.join(folder, safe_path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
     return full
+
+# -------------------------
+# Tools
+# -------------------------
+
+@tool(parse_docstring=True)
+def ls(
+    state: Annotated[DeepAgentState, InjectedState],
+    path: str = ""
+) -> list[str]:
+    """
+    List available files for this user/thread on the real filesystem.
+
+    Args:
+        state: Injected agent state providing user_id/thread_id.
+        path: Optional subdirectory path (e.g., "researcher").
+              If empty, lists root thread folder.
+
+    Returns:
+        A sorted list of filenames in the specified folder.
+    """
+    folder = _thread_folder(state)
+    if path:
+        # Join with the subdirectory path, removing leading slashes
+        folder = os.path.join(folder, path.lstrip("/\\"))
+    if not os.path.exists(folder):
+        return []
+    return sorted(os.listdir(folder))
