@@ -151,3 +151,50 @@ def write_file(
             "messages": [ToolMessage(msg, tool_call_id=tool_call_id)]
         }
     )
+
+@tool(parse_docstring=True)
+def cleanup_files(
+    state: Annotated[DeepAgentState, InjectedState],
+    tool_call_id: Annotated[str, InjectedToolCallId],
+) -> Command:
+    """
+    Delete ALL files for this user/thread from the real filesystem.
+
+    IMPORTANT:
+    - This is a destructive operation.
+    - Use ONLY when the human user explicitly asks to wipe, reset,
+      or clean the workspace for this conversation.
+
+    Args:
+        state: Injected agent state with user_id/thread_id.
+        tool_call_id: Tool call ID for attaching a ToolMessage.
+
+    Behavior:
+        - Looks in: agent_files/<user>/<thread>/
+        - Deletes all regular files in that folder (does not recurse).
+
+    Returns:
+        Command with a ToolMessage summarizing what was deleted.
+    """
+    folder = _thread_folder(state)
+
+    if not os.path.exists(folder):
+        msg = "[CLEANUP] No folder found, nothing to delete."
+        return Command(update={"messages": [ToolMessage(msg, tool_call_id=tool_call_id)]})
+
+    deleted = []
+    for name in os.listdir(folder):
+        full = os.path.join(folder, name)
+        if os.path.isfile(full):
+            try:
+                os.remove(full)
+                deleted.append(name)
+            except Exception as e:
+                deleted.append(f"{name} (error: {e})")
+
+    if not deleted:
+        msg = "[CLEANUP] No files to delete."
+    else:
+        msg = f"[CLEANUP] Deleted files: {deleted}"
+
+    return Command(update={"messages": [ToolMessage(msg, tool_call_id=tool_call_id)]})
