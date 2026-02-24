@@ -117,3 +117,37 @@ def read_file(
         for i, line in enumerate(lines[offset:end])
     ]
     return "\n".join(numbered)
+
+@tool(parse_docstring=True)
+def write_file(
+    file_path: str,
+    content: str,
+    state: Annotated[DeepAgentState, InjectedState],
+    tool_call_id: Annotated[str, InjectedToolCallId],
+) -> Command:
+    """
+    Write content to a file on the real filesystem.
+
+    Args:
+        file_path: Relative path (e.g., "plan.md", "notes/sources.txt").
+        content: Text content to write (overwrites existing file).
+        state: Injected agent state providing user_id/thread_id.
+        tool_call_id: Tool call ID used to attach a ToolMessage.
+
+    Side effects:
+        - Overwrites the file on disk for this user/thread.
+
+    Returns:
+        Command that adds a ToolMessage confirming the write.
+    """
+    path = _disk_path(state, file_path)
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    msg = f"[FILE WRITTEN] {file_path} -> {path}"
+    return Command(
+        update={
+            "messages": [ToolMessage(msg, tool_call_id=tool_call_id)]
+        }
+    )
