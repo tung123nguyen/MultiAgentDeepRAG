@@ -1,0 +1,15 @@
+Sources for Amazon's business segment performance (2023-2024):
+
+1. Amazon 10-K 2023 (Annual Report)
+   - Source: amazon 10-k 2023.md
+   - Data: Full-year 2023 revenue for Online Stores ($231.9B), Physical Stores ($20.0B), Third-party seller services ($140.1B), Advertising ($46.9B), Subscription services ($40.2B), and AWS ($90.8B).
+
+2. Amazon 10-Q Q1 2024 (Quarterly Report)
+   - Source: amazon 10-q q1 2024.md
+   - Data: Q1 2024 AWS revenue of $25.0B (17% growth) and operating income of $9.4B.
+   - Insight: Revenue growth in NA and International driven by 3P sellers and ads.
+
+3. Amazon 10-Q Q2 2024 (Quarterly Report)
+   - Source: amazon 10-q q2 2024.md
+   - Data: Q2 2024 AWS revenue of $26.3B (19% growth) and operating income of $9.3B.
+   - Summary: Comparison of six-month totals for 2023 vs 2024 across all major segments.

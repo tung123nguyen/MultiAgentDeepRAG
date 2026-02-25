@@ -1,0 +1,30 @@
+### Sources for Theme 1: Amazon's Key Financial Highlights (2023-2024)
+
+**Source 1: Amazon 10-K 2023**
+- **File:** amazon 10-k 2023.md
+- **Key Data:**
+  - Net Sales: $574,785M (2023), $513,983M (2022)
+  - Operating Income: $36,852M (2023), $12,248M (2022)
+  - Net Income: $30,425M (2023), ($2,722M) (2022)
+  - Segment Sales 2023: NA $352.8B, International $131.2B, AWS $90.8B.
+
+**Source 2: Amazon 10-Q Q1 2024**
+- **File:** amazon 10-q q1 2024.md
+- **Key Data:**
+  - Q1 2024 Net Sales: $143,313M (+13% YoY)
+  - Q1 2024 Operating Income: $15,307M
+  - Q1 2024 Net Income: $10,431M
+  - Server useful life change: Reduced depreciation by $897M in Q1 2024.
+
+**Source 3: Amazon 10-Q Q2 2024**
+- **File:** amazon 10-q q2 2024.md (and tables)
+- **Key Data:**
+  - Q2 2024 Net Sales: $147,977M (+10% YoY)
+  - Q2 2024 Operating Income: $14,672M
+  - Q2 2024 Net Income: $13,485M
+  - Six Months 2024: Net Sales $291,290M, Net Income $23,916M.
+  - International segment net sales in Q2 2024 decreased by $974 million in comparison with Q2 2023 due to foreign exchange.
+
+**Source 4: Comparative Growth Metrics (Synthesized from Filings)**
+- AWS Growth: 29% (2022) -> 13% (2023) -> 17% (Q1 2024) -> 19% (Q2 2024).
+- Consolidated Growth: 9% (2022) -> 12% (2023) -> 13% (Q1 2024) -> 10% (Q2 2024).

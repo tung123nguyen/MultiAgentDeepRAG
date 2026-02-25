@@ -1,0 +1,18 @@
+Sources for Amazon Financial Performance (Theme 1)
+
+1. Amazon.com, Inc. 2023 Form 10-K (Annual Report)
+   - Data Points: Full year 2023 revenue ($574.8B), Operating Income ($36.9B), Net Income ($30.4B), and segment-level details.
+   - Source: amazon 10-k 2023.md
+
+2. Amazon.com, Inc. Q1 2024 Form 10-Q (Quarterly Report)
+   - Data Points: Q1 2024 revenue ($143.3B), Operating Income ($15.3B), Net Income ($10.4B).
+   - Source: amazon 10-q q1 2024.md
+
+3. Amazon.com, Inc. Q2 2024 Form 10-Q (Quarterly Report)
+   - Data Points: Q2 2024 revenue ($148.0B), Operating Income ($14.7B), Net Income ($13.5B), and H1 2024 consolidated results.
+   - Source: amazon 10-q q2 2024.md
+
+Key Snippets:
+- "Sales increased 12% in 2023, compared to the prior year." (10-K 2023)
+- "Operating income increased from $7.7 billion in Q2 2023 to $14.7 billion in Q2 2024." (Q2 2024 10-Q)
+- "AWS sales increased 19% in Q2 2024... compared to the comparable prior year periods." (Q2 2024 10-Q)

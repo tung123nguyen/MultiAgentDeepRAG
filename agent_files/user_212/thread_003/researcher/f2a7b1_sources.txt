@@ -1,0 +1,18 @@
+Sources for Amazon's profitability and cost-cutting (2023-2024):
+
+1. Amazon 10-K 2024 (Annual Report)
+   - Source: amazon 10-k 2024.md
+   - Data: Full-year 2024 operating income ($68.6B), net income ($59.2B), and segment-specific profitability.
+   - Highlights: Details on server useful life extension and its impact on depreciation.
+
+2. Amazon 10-Q Q1 2024
+   - Source: amazon 10-q q1 2024.md
+   - Data: Q1 2024 operating income ($15.3B) and early impact of cost-cutting.
+
+3. Amazon 10-Q Q2 2024
+   - Source: amazon 10-q q2 2024.md
+   - Data: H1 2024 profitability trends and consolidated income statement.
+
+4. Amazon 10-K 2023
+   - Source: amazon 10-k 2023.md
+   - Data: Baseline 2023 performance for comparison ($36.9B operating income).

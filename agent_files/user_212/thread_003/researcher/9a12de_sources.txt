@@ -1,0 +1,15 @@
+Sources for Amazon's outlook and market trends (2024):
+
+1. Amazon 10-Q Q3 2024
+   - Source: amazon 10-q q3 2024.md
+   - Data: Q4 2024 guidance (Sales $181.5B-$188.5B; Operating Income $16B-$20B).
+   - Insights: Anthropic investment schedule and performance obligations.
+
+2. Amazon 10-K 2024
+   - Source: amazon 10-k 2024.md
+   - Data: Detailed breakdown of property and equipment additions ($85.8B total, $53.3B for AWS).
+   - Insights: Competitive landscape description and human capital overview.
+
+3. Amazon 10-Q Q2 2024
+   - Source: amazon 10-q q2 2024.md
+   - Data: Q3 2024 guidance and earlier macroeconomic overview.

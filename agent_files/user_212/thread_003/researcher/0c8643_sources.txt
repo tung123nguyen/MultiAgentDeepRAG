@@ -1,0 +1,20 @@
+Sources:
+- Amazon 10-K for the fiscal year ended December 31, 2024 (Source: amazon 10-k 2024.md)
+  - Page 66: Segment information (North America, International, AWS)
+  - Page 67: Revenue by product group (Online stores, AWS, Advertising, etc.)
+- Amazon 10-Q for Q3 2024 (Source: amazon 10-q q3 2024.md)
+  - Page 20: Segment results for three and nine months ended Sept 30, 2024.
+  - Page 21: Revenue by product group for three and nine months ended Sept 30, 2024.
+- Amazon 10-Q for Q2 2024 (Source: amazon 10-q q2 2024.md)
+  - Page 20: Revenue by product group for three and six months ended June 30, 2024.
+  - Page 24: Segment growth rates and mix.
+- Amazon 10-Q for Q1 2024 (Source: amazon 10-q q1 2024.md)
+  - Page 21: Revenue by product group for the three months ended March 31, 2024.
+
+Key Metrics (Annual 2023 vs 2024):
+- AWS Revenue: $90.8B -> $107.6B
+- AWS Op Income: $24.6B -> $39.8B
+- Advertising Revenue: $46.9B -> $56.2B
+- Third-party Seller Services Revenue: $140.1B -> $156.1B
+- Online Stores Revenue: $231.9B -> $247.0B
+- Consolidated Operating Income: $36.9B -> $68.6B

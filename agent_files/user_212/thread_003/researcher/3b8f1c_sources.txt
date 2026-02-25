@@ -1,0 +1,16 @@
+Sources for Amazon's financial performance (2023-2024):
+
+1. Amazon 10-K 2023 (Annual Report)
+   - Source: amazon 10-k 2023.md
+   - Data: Full year 2023 net sales ($574.8B), operating income ($36.9B), and net income ($30.4B).
+   - Highlights: Recovery from 2022 net loss; breakdown of product vs. service sales.
+
+2. Amazon 10-Q Q1 2024 (Quarterly Report)
+   - Source: amazon 10-q q1 2024.md
+   - Data: Q1 2024 net sales ($143.3B), segment growth (AWS 17%), and operating income ($15.3B).
+   - Key Insight: Change in server useful life from 5 to 6 years reduced depreciation by $897M.
+
+3. Amazon 10-Q Q2 2024 (Quarterly Report)
+   - Source: amazon 10-q q2 2024.md
+   - Data: Q2 2024 net sales ($148.0B), segment growth (AWS 19%), and operating income ($14.7B).
+   - Summary: H1 2024 net sales of $291.3B and operating income of $30.0B.
